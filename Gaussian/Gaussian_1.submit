@@ -1,0 +1,8 @@
+universe = Vanilla
+executable = Gaussian_1.py
++flock_local = True
+log = example.log
+error = example.err
+output = example.out
+accounting_group = test
+queue 1
